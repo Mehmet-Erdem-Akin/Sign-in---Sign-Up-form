@@ -1,0 +1,153 @@
+.sign-in-page {
+	width: auto;
+	height: 100vh;
+	background: rgb(199,226,249);
+    background: linear-gradient(90deg, rgba(199,226,249,1) 0%, rgba(0,142,234,1) 100%);
+	
+	.slider {
+		color: white;
+		text-align: center;
+		height: 100vh;
+	}
+	.carousel-indicators {
+		>li {
+			border-radius: 100% !important;
+			width: 10px !important;
+			height: 10px !important;
+		}
+	}
+	.carousel-inner {
+		height: 100%;
+	}
+	.sign-in-img {
+		padding-top: 50px;
+		width: 200px;
+		margin-left: 100px ;
+	}
+	.carousel-text {
+		color: white !important;
+	}
+
+}
+
+.sing-in-page-form {
+	background-color: white;
+	height: 100vh;
+
+	
+	h2 {
+		color: #FF0000 !important;
+		text-align: center;
+	}
+	.form-group {
+		padding-top: 15px;
+	}
+	button {
+		background-color: #FF0000 !important;
+		transition: 1s;
+	}
+	button:hover {
+		transition: 1s;
+		background-color: white !important;
+		color: #FF0000;
+	}
+	a {
+		color: #FF0000 !important;
+	}
+	input {
+		opacity: 0.7;
+		&:focus {
+			opacity: 1;
+			color: none;
+		}
+	}
+	.form-control:focus {
+		border-color: #FF0000;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+	}
+	
+	label {
+		opacity: 0.7;
+	}
+	i {
+		border-radius: 100%;
+		padding: 10px;
+		font-size: 20px;
+	}
+	.iq-social-media {
+		>li {
+		list-style-type: none;
+		float: left;
+		}
+	}
+	.fa-facebook-square{
+		color: #1F81F2 !important;
+	}
+	.fa-twitter-square {
+		color: #1CA1F2;
+	} 
+	.fa-instagram {
+		color: #ED4956;
+	}
+	.sign-info {
+		position: absolute;
+	}
+	.sartlar-gizlilik {
+		a {
+			opacity: 0.7;
+		}
+	}
+}
+
+.footer-a {
+	a {
+		color:  #fff !important;
+	}
+}
+
+// .sing-in-page-form {
+// 	background-color: white;
+// 	height: 100vh;
+	
+// }
+// .sign-form {
+// 	h1 {
+// 		color: #1095EC !important;
+// 	}
+
+// }
+// .form-group {
+// 	padding-top: 15px;
+// }
+// button {
+// 	background-color: #55adf1 !important;
+// }
+// a {
+// 	background-color: #55adf1;
+// 	color: #55adf1 !important;
+// }
+// input {
+// 	opacity: 0.7;
+// 	&:focus {
+// 		opacity: 1;
+// 	}
+// }
+// label {
+// 	opacity: 0.7;
+// }
+// i {
+// 	border-radius: 100%;
+// 	background-color: hsl(210, 44%, 96%);
+// 	padding: 10px;
+// 	color: #55adf1;
+// }
+// .iq-social-media {
+// 	>li {
+// 		list-style-type: none;
+// 		float: left;
+// 	}
+// }
+// .sign-info {
+// 	position: absolute;
+// }
+
